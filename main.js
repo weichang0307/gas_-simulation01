@@ -125,6 +125,6 @@ function draw(){
     //r01.draw_helper('blue')
     requestAnimationFrame(draw)
 }
-init()
-setInterval(update,1000/fps)
-draw()
+//init()
+//setInterval(update,1000/fps)
+//draw()
