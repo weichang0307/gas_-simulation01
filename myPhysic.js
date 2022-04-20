@@ -255,8 +255,8 @@ function collision_ball_ball(A,B){
 			B.velocity.add_in(vAB_normal.scale(2*my_calculate(B.mass,A.mass)))
 			A.velocity.minus_in(vAB_normal.scale(2*my_calculate(A.mass,B.mass)))
 			//call back
-			A.collision({deg:pdeg,obj:B})
-			B.collision({deg:pdeg+Math.PI,obj:A})
+			//A.collision({deg:pdeg,obj:B})
+			//B.collision({deg:pdeg+Math.PI,obj:A})
 			
 			
 		}
